@@ -571,6 +571,16 @@ video {
   margin-right: auto;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
 .-mr-2 {
   margin-right: -0.5rem;
 }
@@ -581,6 +591,14 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
 }
 
 .block {
@@ -597,6 +615,30 @@ video {
 
 .h-\[323px\] {
   height: 323px;
+}
+
+.h-1 {
+  height: 0.25rem;
+}
+
+.h-11 {
+  height: 2.75rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[40px\] {
+  height: 40px;
 }
 
 .w-72 {
@@ -625,6 +667,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-11 {
+  width: 2.75rem;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .flex-col {
@@ -659,6 +709,19 @@ video {
   gap: 2rem;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-x-5 {
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
+}
+
+.gap-y-8 {
+  row-gap: 2rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -673,6 +736,14 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 .border {
@@ -707,6 +778,14 @@ video {
   background-size: cover;
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-auto {
+  background-size: auto;
+}
+
 .bg-center {
   background-position: center;
 }
@@ -725,6 +804,14 @@ video {
 
 .p-7 {
   padding: 1.75rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-14 {
+  padding: 3.5rem;
 }
 
 .px-2 {
@@ -768,6 +855,38 @@ video {
 
 .pb-3 {
   padding-bottom: 0.75rem;
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.pb-11 {
+  padding-bottom: 2.75rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.pb-14 {
+  padding-bottom: 3.5rem;
+}
+
+.pb-7 {
+  padding-bottom: 1.75rem;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {
@@ -814,6 +933,10 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .leading-8 {
