@@ -556,6 +556,10 @@ video {
   }
 }
 
+.-m-3 {
+  margin: -0.75rem;
+}
+
 .mx-1 {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
@@ -625,6 +629,18 @@ video {
 
 .mt-16 {
   margin-top: 4rem;
+}
+
+.-ml-3 {
+  margin-left: -0.75rem;
+}
+
+.-ml-5 {
+  margin-left: -1.25rem;
+}
+
+.mt-\[28px\] {
+  margin-top: 28px;
 }
 
 .block {
@@ -707,6 +723,10 @@ video {
   width: 151px;
 }
 
+.w-16 {
+  width: 4rem;
+}
+
 .scroll-pt-4 {
   scroll-padding-top: 1rem;
 }
@@ -731,12 +751,20 @@ video {
   align-items: flex-start;
 }
 
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
 }
 
 .items-baseline {
   align-items: baseline;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -749,6 +777,14 @@ video {
 
 .justify-around {
   justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-stretch {
+  justify-content: stretch;
 }
 
 .gap-5 {
@@ -766,6 +802,10 @@ video {
 
 .gap-y-8 {
   row-gap: 2rem;
+}
+
+.justify-self-end {
+  justify-self: end;
 }
 
 .overflow-hidden {
@@ -898,6 +938,41 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.px-\[220\] {
+  padding-left: 220;
+  padding-right: 220;
+}
+
+.px-\[220px\] {
+  padding-left: 220px;
+  padding-right: 220px;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
+.py-\[84\] {
+  padding-top: 84;
+  padding-bottom: 84;
+}
+
+.py-\[84px\] {
+  padding-top: 84px;
+  padding-bottom: 84px;
+}
+
+.py-\[72px\] {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
 .pb-14 {
   padding-bottom: 3.5rem;
 }
@@ -948,6 +1023,18 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pt-\[45px\] {
+  padding-top: 45px;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.pl-1 {
+  padding-left: 0.25rem;
 }
 
 .text-left {
