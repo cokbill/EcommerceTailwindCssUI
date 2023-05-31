@@ -3,6 +3,7 @@ module.exports = {
   content: ['./main.html',
   'mycart.html',
   'product.html',
+  'personalinfo.html',
 ],
   theme: {
     extend: {
