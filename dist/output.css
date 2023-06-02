@@ -576,6 +576,21 @@ video {
   margin-bottom: 14px;
 }
 
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
 .-mr-2 {
   margin-right: -0.5rem;
 }
@@ -670,6 +685,30 @@ video {
 
 .mt-\[70px\] {
   margin-top: 70px;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+
+.mb-44 {
+  margin-bottom: 11rem;
 }
 
 .block {
@@ -801,8 +840,36 @@ video {
   width: 1280px;
 }
 
+.w-\[227px\] {
+  width: 227px;
+}
+
+.w-\[1px\] {
+  width: 1px;
+}
+
+.w-\[1300px\] {
+  width: 1300px;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[923\] {
+  width: 923;
+}
+
+.w-\[923px\] {
+  width: 923px;
+}
+
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -839,6 +906,14 @@ video {
 
 .justify-around {
   justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-stretch {
+  justify-content: stretch;
 }
 
 .gap-2 {
@@ -1022,6 +1097,16 @@ video {
 .py-\[72px\] {
   padding-top: 72px;
   padding-bottom: 72px;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .pb-10 {
