@@ -13,7 +13,7 @@
 <body class="bg-bgcolor text-grey">
     <!-- Navbar section -->
     <header class="bg-navcolor">
-        <div class="container mx-auto flex justify-around items-center">
+        <div class="w-full mx-auto flex justify-around items-center">
             <div class="flex items-center ">
                 <img src="./Assets/cek_toko_sebelah-.png" alt="logo"
                     class=" mr-1 h-16 bg-center bg-cover bg-no-repeat bg-origin-content">
@@ -32,67 +32,62 @@
         </div>
     </header>
     <!-- body section -->
-    <div class="w-full flex flex-row lg:flex-row mt-6">
-        <aside class="lg:w-[227px] rounded-lg shadow-md bg-hovercolor ml-5">
+    <div class="w-[1280px] flex lg:flex-row mt-9 ml-5">
+        <aside class="lg:w-[227px] rounded-lg shadow-md bg-[#1d387d] pb-[100px] h-fit ">
             <div class="w-[183px] mx-auto border-b border-white ">
                 <p class="pt-4 pb-3 text-sm">Filters</p>
             </div>
+            <div class="radio w-[183px] mx-auto flex flex-col mt-7">
+                <h3 class="text-sm font-semibold pb-4">Sort by</h3>
+                <div class="flex items-center ">
+                    <input type="radio" name="radio" id="price" class="w-[20px] h-[20px] mr-4 border-x-slate-600">
+                    <label for="price" class="text-sm"> Price - Low to High </label>
+                </div>
+                <div class="flex items-center my-[14px]">
+                    <input type="radio" name="radio" id="price2" class="w-[20px] h-[20px] mr-4 border-x-slate-600">
+                    <label for="price2" class="text-sm"> Price - Low to High </label>
+                </div>
+            </div>
+            <div class="radio w-[183px] mx-auto flex flex-col mt-7">
+                <h3 class="text-sm font-semibold pb-4">Rating</h3>
+                <div class="flex items-center ">
+                    <input type="radio" name="radio" id="price" class="w-[20px] h-[20px] mr-4 border-x-slate-600">
+                    <label for="price" class="text-sm"> Price - Low to High </label>
+                </div>
+                <div class="flex items-center mt-[14px]">
+                    <input type="radio" name="radio" id="price2" class="w-[20px] h-[20px] mr-4 border-x-slate-600">
+                    <label for="price2" class="text-sm"> Price - Low to High </label>
+                </div>
+                <div class="flex items-center mt-[14px]">
+                    <input type="radio" name="radio" id="price2" class="w-[20px] h-[20px] mr-4 border-x-slate-600">
+                    <label for="price2" class="text-sm"> Price - Low to High </label>
+                </div>
+                <div class="flex items-center mt-[14px]">
+                    <input type="radio" name="radio" id="price2" class="w-[20px] h-[20px] mr-4 border-x-slate-600">
+                    <label for="price2" class="text-sm"> Price - Low to High </label>
+                </div>
+            </div>
+            <div class="radio w-[183px] mx-auto flex flex-col mt-7">
+                <h3 class="text-sm font-semibold pb-4">Other filters</h3>
+                <div class="flex items-center ">
+                    <input type="radio" name="radio" id="price" class="w-[20px] h-[20px] mr-4 border-x-slate-600">
+                    <label for="price" class="text-sm"> Price - Low to High </label>
+                </div>
+                <div class="flex items-center mt-[14px]">
+                    <input type="radio" name="radio" id="price2" class="w-[20px] h-[20px] mr-4 border-x-slate-600">
+                    <label for="price2" class="text-sm"> Price - Low to High </label>
+                </div>
+            </div>
         </aside>
-        <main class="w-full lg:w-3/4 mt-4 lg:mt-0 lg:ml-4 grid grid-cols-3 items-center gap-5">
-            <div class="card flex-col rounded-lg overflow-hidden border-slate-300 border-solid border">
-                <div class="cardimg w-72 bg-cover">
-                    <img src="./Assets/front-view-stacked-books-ladders-education-day.jpg" alt=""
-                        class="block bg-cover">
-                </div>
-                <div class="cardbody w-72 px-9 py-3">
-                    <h4 class="text-white text-lg font-semibold leading-tight">best book in the market right now</h4>
-                    <p class=" text-xs mt-2 pb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
-                        facilis enim non omnis atque.</p>
-                    <div class="pb-2">
-                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
-                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
-                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
-                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
-                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
-                    </div>
-                    <div class="flex justify-between pb-3">
-                        <div>
-                            <h4 class=" font-semibold">$99</h4>
-                        </div>
-                        <div class="">
-                            <button class="px-2 py-1 bg-hovercolor text-xs rounded-lg -mr-2">Add to Cart <i
-                                    class="fa-regular fa-plus fa-xs" style="color: #ffffff;"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div><div class="card flex-col rounded-lg overflow-hidden border-slate-300 border-solid border">
-                <div class="cardimg w-72 bg-cover">
-                    <img src="./Assets/front-view-stacked-books-ladders-education-day.jpg" alt=""
-                        class="block bg-cover">
-                </div>
-                <div class="cardbody w-72 px-9 py-3">
-                    <h4 class="text-white text-lg font-semibold leading-tight">best book in the market right now</h4>
-                    <p class=" text-xs mt-2 pb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
-                        facilis enim non omnis atque.</p>
-                    <div class="pb-2">
-                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
-                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
-                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
-                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
-                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
-                    </div>
-                    <div class="flex justify-between pb-3">
-                        <div>
-                            <h4 class=" font-semibold">$99</h4>
-                        </div>
-                        <div class="">
-                            <button class="px-2 py-1 bg-hovercolor text-xs rounded-lg -mr-2">Add to Cart <i
-                                    class="fa-regular fa-plus fa-xs" style="color: #ffffff;"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card flex-col rounded-lg overflow-hidden border-slate-300 border-solid border">
+        <!-- main section -->
+        <main class="w-full">
+        <div class="allebooks">
+            <div><h2></h2></div>
+            <div class=""><span></span></div>
+        </div>
+        <div class="lg:w-[923px] mt-4 lg:ml-4 grid grid-cols-3 justify-center items-center gap-y-9">
+            <div
+                class="card flex-col rounded-lg overflow-hidden border-slate-300 border-solid border w-[280px] mx-auto">
                 <div class="cardimg w-72 bg-cover">
                     <img src="./Assets/front-view-stacked-books-ladders-education-day.jpg" alt=""
                         class="block bg-cover">
@@ -119,10 +114,226 @@
                     </div>
                 </div>
             </div>
-
-
-
+            <div class="card flex-col rounded-lg overflow-hidden border-slate-300 border-solid border w-[280px] mx-auto">
+                <div class="cardimg w-72 bg-cover">
+                    <img src="./Assets/front-view-stacked-books-ladders-education-day.jpg" alt=""
+                        class="block bg-cover">
+                </div>
+                <div class="cardbody w-72 px-9 py-3">
+                    <h4 class="text-white text-lg font-semibold leading-tight">best book in the market right now</h4>
+                    <p class=" text-xs mt-2 pb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+                        facilis enim non omnis atque.</p>
+                    <div class="pb-2">
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                    </div>
+                    <div class="flex justify-between pb-3">
+                        <div>
+                            <h4 class=" font-semibold">$99</h4>
+                        </div>
+                        <div class="">
+                            <button class="px-2 py-1 bg-hovercolor text-xs rounded-lg -mr-2">Add to Cart <i
+                                    class="fa-regular fa-plus fa-xs" style="color: #ffffff;"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card flex-col rounded-lg overflow-hidden border-slate-300 border-solid border w-[280px] mx-auto">
+                <div class="cardimg w-72 bg-cover">
+                    <img src="./Assets/front-view-stacked-books-ladders-education-day.jpg" alt=""
+                        class="block bg-cover">
+                </div>
+                <div class="cardbody w-72 px-9 py-3">
+                    <h4 class="text-white text-lg font-semibold leading-tight">best book in the market right now</h4>
+                    <p class=" text-xs mt-2 pb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+                        facilis enim non omnis atque.</p>
+                    <div class="pb-2">
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                    </div>
+                    <div class="flex justify-between pb-3">
+                        <div>
+                            <h4 class=" font-semibold">$99</h4>
+                        </div>
+                        <div class="">
+                            <button class="px-2 py-1 bg-hovercolor text-xs rounded-lg -mr-2">Add to Cart <i
+                                    class="fa-regular fa-plus fa-xs" style="color: #ffffff;"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card flex-col rounded-lg overflow-hidden border-slate-300 border-solid border w-[280px] mx-auto">
+                <div class="cardimg w-72 bg-cover">
+                    <img src="./Assets/front-view-stacked-books-ladders-education-day.jpg" alt=""
+                        class="block bg-cover">
+                </div>
+                <div class="cardbody w-72 px-9 py-3">
+                    <h4 class="text-white text-lg font-semibold leading-tight">best book in the market right now</h4>
+                    <p class=" text-xs mt-2 pb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+                        facilis enim non omnis atque.</p>
+                    <div class="pb-2">
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                    </div>
+                    <div class="flex justify-between pb-3">
+                        <div>
+                            <h4 class=" font-semibold">$99</h4>
+                        </div>
+                        <div class="">
+                            <button class="px-2 py-1 bg-hovercolor text-xs rounded-lg -mr-2">Add to Cart <i
+                                    class="fa-regular fa-plus fa-xs" style="color: #ffffff;"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card flex-col rounded-lg overflow-hidden border-slate-300 border-solid border w-[280px] mx-auto">
+                <div class="cardimg w-72 bg-cover">
+                    <img src="./Assets/front-view-stacked-books-ladders-education-day.jpg" alt=""
+                        class="block bg-cover">
+                </div>
+                <div class="cardbody w-72 px-9 py-3">
+                    <h4 class="text-white text-lg font-semibold leading-tight">best book in the market right now</h4>
+                    <p class=" text-xs mt-2 pb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+                        facilis enim non omnis atque.</p>
+                    <div class="pb-2">
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                    </div>
+                    <div class="flex justify-between pb-3">
+                        <div>
+                            <h4 class=" font-semibold">$99</h4>
+                        </div>
+                        <div class="">
+                            <button class="px-2 py-1 bg-hovercolor text-xs rounded-lg -mr-2">Add to Cart <i
+                                    class="fa-regular fa-plus fa-xs" style="color: #ffffff;"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card flex-col rounded-lg overflow-hidden border-slate-300 border-solid border w-[280px] mx-auto">
+                <div class="cardimg w-72 bg-cover">
+                    <img src="./Assets/front-view-stacked-books-ladders-education-day.jpg" alt=""
+                        class="block bg-cover">
+                </div>
+                <div class="cardbody w-72 px-9 py-3">
+                    <h4 class="text-white text-lg font-semibold leading-tight">best book in the market right now</h4>
+                    <p class=" text-xs mt-2 pb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+                        facilis enim non omnis atque.</p>
+                    <div class="pb-2">
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                    </div>
+                    <div class="flex justify-between pb-3">
+                        <div>
+                            <h4 class=" font-semibold">$99</h4>
+                        </div>
+                        <div class="">
+                            <button class="px-2 py-1 bg-hovercolor text-xs rounded-lg -mr-2">Add to Cart <i
+                                    class="fa-regular fa-plus fa-xs" style="color: #ffffff;"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card flex-col rounded-lg overflow-hidden border-slate-300 border-solid border w-[280px] mx-auto">
+                <div class="cardimg w-72 bg-cover">
+                    <img src="./Assets/front-view-stacked-books-ladders-education-day.jpg" alt=""
+                        class="block bg-cover">
+                </div>
+                <div class="cardbody w-72 px-9 py-3">
+                    <h4 class="text-white text-lg font-semibold leading-tight">best book in the market right now</h4>
+                    <p class=" text-xs mt-2 pb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+                        facilis enim non omnis atque.</p>
+                    <div class="pb-2">
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                    </div>
+                    <div class="flex justify-between pb-3">
+                        <div>
+                            <h4 class=" font-semibold">$99</h4>
+                        </div>
+                        <div class="">
+                            <button class="px-2 py-1 bg-hovercolor text-xs rounded-lg -mr-2">Add to Cart <i
+                                    class="fa-regular fa-plus fa-xs" style="color: #ffffff;"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card flex-col rounded-lg overflow-hidden border-slate-300 border-solid border w-[280px] mx-auto">
+                <div class="cardimg w-72 bg-cover">
+                    <img src="./Assets/front-view-stacked-books-ladders-education-day.jpg" alt=""
+                        class="block bg-cover">
+                </div>
+                <div class="cardbody w-72 px-9 py-3">
+                    <h4 class="text-white text-lg font-semibold leading-tight">best book in the market right now</h4>
+                    <p class=" text-xs mt-2 pb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+                        facilis enim non omnis atque.</p>
+                    <div class="pb-2">
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                    </div>
+                    <div class="flex justify-between pb-3">
+                        <div>
+                            <h4 class=" font-semibold">$99</h4>
+                        </div>
+                        <div class="">
+                            <button class="px-2 py-1 bg-hovercolor text-xs rounded-lg -mr-2">Add to Cart <i
+                                    class="fa-regular fa-plus fa-xs" style="color: #ffffff;"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card flex-col rounded-lg overflow-hidden border-slate-300 border-solid border w-[280px] mx-auto">
+                <div class="cardimg w-72 bg-cover">
+                    <img src="./Assets/front-view-stacked-books-ladders-education-day.jpg" alt=""
+                        class="block bg-cover">
+                </div>
+                <div class="cardbody w-72 px-9 py-3">
+                    <h4 class="text-white text-lg font-semibold leading-tight">best book in the market right now</h4>
+                    <p class=" text-xs mt-2 pb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+                        facilis enim non omnis atque.</p>
+                    <div class="pb-2">
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #FFD95A;"></i>
+                    </div>
+                    <div class="flex justify-between pb-3">
+                        <div>
+                            <h4 class=" font-semibold">$99</h4>
+                        </div>
+                        <div class="">
+                            <button class="px-2 py-1 bg-hovercolor text-xs rounded-lg -mr-2">Add to Cart <i
+                                    class="fa-regular fa-plus fa-xs" style="color: #ffffff;"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     </div>
+    
     <!-- footer section -->
     <footer class="w-full mx-auto flex bg-navcolor items-center justify-around p-4">
         <div>
